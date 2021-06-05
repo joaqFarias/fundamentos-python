@@ -15,7 +15,7 @@ def estadisticas(lista=[]):
                 minimo = lista[i]
             if lista[i] > maximo:
                 maximo = lista[i]
-            suma += i
+            suma += lista[i]
         promedio = suma / len(lista)
         return {"minimo": minimo, "maximo": maximo, "promedio": promedio, 
                 "suma": suma}
