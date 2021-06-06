@@ -46,8 +46,6 @@ students = [
 # first_name - John, last_name - Rosales
 # first_name - Mark, last_name - Guillen
 # first_name - KB, last_name - Tonel
-
-
 def iterateDictionary(diccionario=False):
     if diccionario == False:
         print("ingrese diccionario valido")
@@ -58,8 +56,6 @@ def iterateDictionary(diccionario=False):
             for key, valor in diccionario[i].items():
                 pivote += f"{key} - {valor}, "
             print(pivote[:-3])
-
-
 iterateDictionary(students)
 
 #########################################################################
